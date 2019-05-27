@@ -1,42 +1,54 @@
 /* Required for full background image */
-
 html,
 body,
 header,
 .jarallax {
-    height: 100%;
+  height: 100%;
 }
 
 @media (max-width: 740px) {
-
-    html,
-    body,
-    header,
-    .jarallax {
-        height: 100vh;
-    }
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
 }
 
 .top-nav-collapse {
-    background-color: #82b1ff !important;
+  background-color: #82b1ff !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
+  background: transparent !important;
 }
 
 @media (max-width: 991px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #82b1ff !important;
-    }
+  .navbar:not(.top-nav-collapse) {
+    background: #82b1ff !important;
+  }
 }
 
 h5 {
-    letter-spacing: 3px;
+  letter-spacing: 3px;
 }
 
 .btn .fa.fa-sm {
-    font-size: 1rem;
-    margin-top: -5px;
+  font-size: 1rem;
+  margin-top: -5px;
+}
+
+.my-photo {
+  height: 300px;
+}
+
+.brand-name {
+  font-family: 'Yesteryear', cursive; 
+  font-size: 35px;
+}
+
+
+.center {
+  margin: auto;
 }
 
